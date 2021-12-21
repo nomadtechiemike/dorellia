@@ -1,10 +1,16 @@
 <template>
-  <Tutorial />
+  <div>
+    <Nuxt />
+  </div>
 </template>
+
 
 <script>
 export default {
   layout: 'default',
-  name: 'IndexPage',
 }
 </script>
+
+<style lang="scss">
+
+</style>
