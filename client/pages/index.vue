@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12">
-      <h1>Welcome to d'Orellia!</h1>
+      <PageTitle page_title="Starters" />
       <p>
         Dolore qui fugit et quae quia velit et quae. Est exercitationem iste
         magni. Aliquid commodi ad assumenda rerum debitis sed non. Dolorum neque
