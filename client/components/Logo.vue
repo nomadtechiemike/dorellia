@@ -12,7 +12,6 @@ export default {
 
 <style lang="scss">
 .logo {
-  margin-top: 56px;
   img {
     width: 100%;
     max-height: 75px;

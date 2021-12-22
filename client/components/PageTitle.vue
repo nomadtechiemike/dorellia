@@ -1,12 +1,16 @@
 <template>
   <div class="page-title">
-    <h1>{{ page_title }}</h1>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="left-ornament"></div>
+      <h1>{{ page_title }}</h1>
+      <div class="right-ornament"></div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-props: ['page_title']
+  props: ['page_title'],
 }
 </script>
 
@@ -14,6 +18,7 @@ props: ['page_title']
 .page-title {
   h1 {
     font-size: 3.222em;
+    padding: 0px 32px;
   }
 }
 </style>

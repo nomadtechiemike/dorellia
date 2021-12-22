@@ -21,34 +21,43 @@ export default {}
 <style lang="scss">
 .top-menu {
   margin: 42px auto;
+  .golden-lines {
+    border-bottom: 1px solid $primary;
+    &::after {
+      display: block;
+      content: '';
+      height: 1px;
+      width: 80%;
+      background-color: $primary;
+      position: relative;
+      top: 8px;
+      margin: 0px auto;
+    }
+  }
   a {
-    color: #495057;
+    color: $gray-700;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 300;
     text-decoration: none;
     border-bottom: 1px solid transparent;
+    &::after {
+      display: block;
+      content: '';
+      height: 1px;
+      background-color: transparent;
+    }
     &.nuxt-link-exact-active {
-      border-bottom: 1px solid goldenrod;
-      &::after {
-        display: block;
-        content: "";
-        height: 1px;
-        width: 80%;
-        background-color: goldenrod;
-        position: relative;
-        top: 8px;
-        margin: 0px auto;
-      }
+      @extend .golden-lines;
     }
     &:hover {
-      border-bottom: 1px solid goldenrod;
+      @extend .golden-lines;
     }
   }
   .dot {
     display: inline-block;
-    color: goldenrod;
-    font-size: 10px;
+    color: $primary;
+    font-size: 8px;
   }
 }
 </style>
