@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_combos",
+  "info": {
+    "singularName": "menu-combo",
+    "pluralName": "menu-combos",
+    "displayName": "Menu Combo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 255,
+      "minLength": 1
+    },
+    "Description": {
+      "type": "text",
+      "maxLength": 255,
+      "minLength": 1
+    },
+    "Price": {
+      "type": "decimal",
+      "max": 9999,
+      "min": 0,
+      "default": 0
+    },
+    "Color": {
+      "type": "string",
+      "maxLength": 255,
+      "minLength": 1
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
