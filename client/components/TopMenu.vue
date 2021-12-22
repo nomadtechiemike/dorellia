@@ -1,9 +1,9 @@
 <template>
-  <div class="top-menu">
+  <div class="top-menu text-center">
     <nuxt-link to="/">Starters</nuxt-link>
     <nuxt-link to="/lunch">Lunch</nuxt-link>
     <nuxt-link to="/desserts">Desserts</nuxt-link>
-    <nuxt-link to="/yourorder">Your Order (0)</nuxt-link>
+    <nuxt-link to="/yourorder">Your Order <i class="bi bi-bag"></i> (0)</nuxt-link>
   </div>
 </template>
 
