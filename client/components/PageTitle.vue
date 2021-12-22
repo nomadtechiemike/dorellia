@@ -1,9 +1,9 @@
 <template>
   <div class="page-title">
     <div class="d-flex justify-content-center align-items-center">
-      <div class="left-ornament"></div>
+      <div class="left-ornament flex-grow-1"></div>
       <h1>{{ page_title }}</h1>
-      <div class="right-ornament"></div>
+      <div class="right-ornament flex-grow-1"></div>
     </div>
   </div>
 </template>

@@ -1,9 +1,9 @@
 <template>
   <footer class="footer">
     <div class="d-flex justify-content-center align-items-center">
-      <div class="left-ornament"></div>
+      <div class="left-ornament flex-grow-1"></div>
       <Logo />
-      <div class="right-ornament"></div>
+      <div class="right-ornament flex-grow-1"></div>
     </div>
 
     <div class="footer__menu d-flex justify-content-center align-items-center">
@@ -26,6 +26,7 @@ export default {}
 .footer {
   margin: 72px auto;
   .logo {
+    margin: 0px 32px;
     img {
       width: 150px;
     }
