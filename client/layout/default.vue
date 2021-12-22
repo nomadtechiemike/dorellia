@@ -1,10 +1,12 @@
 <template>
-  <Tutorial />
+  <div>
+    <Nuxt />
+  </div>
 </template>
+
 
 <script>
 export default {
   layout: 'homepage',
-  name: 'IndexPage',
 }
 </script>
