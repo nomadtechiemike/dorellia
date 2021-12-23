@@ -1,15 +1,6 @@
 export default {
   // RunTime Settings
   // https://nuxtjs.org/docs/2.x/directory-structure/nuxt-config#runtimeconfig
-  publicRuntimeConfig: {
-    baseURL: process.env.NODE_ENV === 'production' ? process.env.BASE_URL : 'http://localhost:3000/',
-    strapi: {
-      url: process.env.STRAPI_URL
-    }
-  },
-  privateRuntimeConfig: {
-  },
-
   ssr: true,
   target: 'server',
 
@@ -69,7 +60,8 @@ export default {
 
   strapi: {
     // Options
-    entities: ['menu-combos', 'menu-item'],
+    url: process.env.STRAPI_URL || 'http://localhost:1337/api',
+    entities: ['menu-combos', 'menu-items'],
     key: 'dorelliatoken_read',
   },
 
