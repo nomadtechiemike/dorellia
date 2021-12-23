@@ -1,4 +1,19 @@
 export default {
+  // RunTime Settings
+  // https://nuxtjs.org/docs/2.x/directory-structure/nuxt-config#runtimeconfig
+  publicRuntimeConfig: {
+    baseURL: process.env.NODE_ENV === 'production' ? process.env.BASE_URL : 'http://localhost:3000/',
+    strapi: {
+      url: process.env.STRAPI_URL
+    }
+  },
+  privateRuntimeConfig: {
+  },
+
+  ssr: true,
+  target: 'server',
+
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'client',
@@ -49,7 +64,14 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/strapi',
   ],
+
+  strapi: {
+    // Options
+    entities: ['menu-combos', 'menu-item'],
+    key: 'dorelliatoken_read',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
