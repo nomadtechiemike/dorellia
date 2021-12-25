@@ -19,17 +19,17 @@
                           "attributes": {
                             "type": "object",
                             "properties": {
-                              "Title": {
+                              "title": {
                                 "type": "string"
                               },
-                              "Description": {
+                              "description": {
                                 "type": "string"
                               },
-                              "Price": {
+                              "price": {
                                 "type": "number",
                                 "format": "float"
                               },
-                              "Image": {
+                              "image": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -978,17 +978,17 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Title": {
+                            "title": {
                               "type": "string"
                             },
-                            "Description": {
+                            "description": {
                               "type": "string"
                             },
-                            "Price": {
+                            "price": {
                               "type": "number",
                               "format": "float"
                             },
-                            "Image": {
+                            "image": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -1826,17 +1826,17 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "Title": {
+                      "title": {
                         "type": "string"
                       },
-                      "Description": {
+                      "description": {
                         "type": "string"
                       },
-                      "Price": {
+                      "price": {
                         "type": "number",
                         "format": "float"
                       },
-                      "Image": {
+                      "image": {
                         "oneOf": [
                           {
                             "type": "integer"
@@ -1907,17 +1907,17 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Title": {
+                            "title": {
                               "type": "string"
                             },
-                            "Description": {
+                            "description": {
                               "type": "string"
                             },
-                            "Price": {
+                            "price": {
                               "type": "number",
                               "format": "float"
                             },
-                            "Image": {
+                            "image": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -2775,17 +2775,17 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Title": {
+                            "title": {
                               "type": "string"
                             },
-                            "Description": {
+                            "description": {
                               "type": "string"
                             },
-                            "Price": {
+                            "price": {
                               "type": "number",
                               "format": "float"
                             },
-                            "Image": {
+                            "image": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -3634,17 +3634,17 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "Title": {
+                      "title": {
                         "type": "string"
                       },
-                      "Description": {
+                      "description": {
                         "type": "string"
                       },
-                      "Price": {
+                      "price": {
                         "type": "number",
                         "format": "float"
                       },
-                      "Image": {
+                      "image": {
                         "oneOf": [
                           {
                             "type": "integer"

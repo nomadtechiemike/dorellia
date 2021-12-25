@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2021-12-23T15:16:24.999Z"
+    "x-generation-date": "2021-12-25T13:54:12.294Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3960,17 +3960,17 @@
                           "attributes": {
                             "type": "object",
                             "properties": {
-                              "Title": {
+                              "title": {
                                 "type": "string"
                               },
-                              "Description": {
+                              "description": {
                                 "type": "string"
                               },
-                              "Price": {
+                              "price": {
                                 "type": "number",
                                 "format": "float"
                               },
-                              "Image": {
+                              "image": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -4919,17 +4919,17 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Title": {
+                            "title": {
                               "type": "string"
                             },
-                            "Description": {
+                            "description": {
                               "type": "string"
                             },
-                            "Price": {
+                            "price": {
                               "type": "number",
                               "format": "float"
                             },
-                            "Image": {
+                            "image": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -5767,17 +5767,17 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "Title": {
+                      "title": {
                         "type": "string"
                       },
-                      "Description": {
+                      "description": {
                         "type": "string"
                       },
-                      "Price": {
+                      "price": {
                         "type": "number",
                         "format": "float"
                       },
-                      "Image": {
+                      "image": {
                         "oneOf": [
                           {
                             "type": "integer"
@@ -5848,17 +5848,17 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Title": {
+                            "title": {
                               "type": "string"
                             },
-                            "Description": {
+                            "description": {
                               "type": "string"
                             },
-                            "Price": {
+                            "price": {
                               "type": "number",
                               "format": "float"
                             },
-                            "Image": {
+                            "image": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -6716,17 +6716,17 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "Title": {
+                            "title": {
                               "type": "string"
                             },
-                            "Description": {
+                            "description": {
                               "type": "string"
                             },
-                            "Price": {
+                            "price": {
                               "type": "number",
                               "format": "float"
                             },
-                            "Image": {
+                            "image": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -7575,17 +7575,17 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "Title": {
+                      "title": {
                         "type": "string"
                       },
-                      "Description": {
+                      "description": {
                         "type": "string"
                       },
-                      "Price": {
+                      "price": {
                         "type": "number",
                         "format": "float"
                       },
-                      "Image": {
+                      "image": {
                         "oneOf": [
                           {
                             "type": "integer"
