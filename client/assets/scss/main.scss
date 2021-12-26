@@ -7,7 +7,7 @@ $primary: #CF9B38;
 // Include any default variable overrides here (though functions won't be available)
 
 // @import "../node_modules/bootstrap/scss/bootstrap";
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Then add additional custom code here
 
@@ -19,4 +19,9 @@ body {
     font-family: 'Rochester', cursive;
     // font-family: 'Vibur', cursive;
   }
+  .container {
+    padding-top: 56px;
+  }
 }
+
+@import "ornament";

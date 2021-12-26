@@ -2,15 +2,7 @@
   <div class="row">
     <div class="col-12">
       <PageTitle page_title="Starters" />
-      <p>
-        Dolore qui fugit et quae quia velit et quae. Est exercitationem iste
-        magni. Aliquid commodi ad assumenda rerum debitis sed non. Dolorum neque
-        doloremque nostrum. Atque amet fugiat quia veniam consectetur. Ratione
-        sapiente perferendis qui incidunt tempore voluptatem molestias.
-      </p>
-      <p>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </p>
+      <MenuCombos :menu_combos="menu" />
     </div>
   </div>
 </template>
@@ -19,5 +11,42 @@
 export default {
   layout: 'homepage',
   name: 'starters',
+  data() {
+    return {
+      menu: [],
+    }
+  },
+
+  created() {
+    this.getMenu()
+  },
+
+  methods: {
+    async getMenu() {
+      try {
+        const qs = require('qs')
+        const query = qs.stringify(
+          {
+            filters: {
+              combotype: {
+                $eq: 'starter',
+              },
+            },
+          },
+          {
+            encodeValuesOnly: true,
+          }
+        )
+
+        const results = await this.$axios.$get(
+          `http://localhost:1337/api/menu-combos/?populate=*&${query}`
+        )
+        this.menu = results
+
+      } catch (error) {
+        console.log('something went wrong: ', error)
+      }
+    },
+  },
 }
 </script>
