@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2021-12-26T10:52:15.691Z"
+    "x-generation-date": "2021-12-26T12:40:58.357Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -451,6 +451,14 @@
                                     }
                                   }
                                 }
+                              },
+                              "combotype": {
+                                "type": "string",
+                                "enum": [
+                                  "starter",
+                                  "lunch",
+                                  "dessert"
+                                ]
                               },
                               "createdAt": {
                                 "type": "string",
@@ -1414,6 +1422,14 @@
                                 }
                               }
                             },
+                            "combotype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1906,6 +1922,14 @@
                         ],
                         "example": "string or id"
                       },
+                      "combotype": {
+                        "type": "string",
+                        "enum": [
+                          "starter",
+                          "lunch",
+                          "dessert"
+                        ]
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -2348,6 +2372,14 @@
                                   }
                                 }
                               }
+                            },
+                            "combotype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -3220,6 +3252,14 @@
                                 }
                               }
                             },
+                            "combotype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3722,6 +3762,14 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "combotype": {
+                        "type": "string",
+                        "enum": [
+                          "starter",
+                          "lunch",
+                          "dessert"
+                        ]
                       },
                       "createdAt": {
                         "type": "string",

@@ -402,6 +402,14 @@
                                   }
                                 }
                               },
+                              "combotype": {
+                                "type": "string",
+                                "enum": [
+                                  "starter",
+                                  "lunch",
+                                  "dessert"
+                                ]
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1364,6 +1372,14 @@
                                 }
                               }
                             },
+                            "combotype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1856,6 +1872,14 @@
                         ],
                         "example": "string or id"
                       },
+                      "combotype": {
+                        "type": "string",
+                        "enum": [
+                          "starter",
+                          "lunch",
+                          "dessert"
+                        ]
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -2298,6 +2322,14 @@
                                   }
                                 }
                               }
+                            },
+                            "combotype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -3170,6 +3202,14 @@
                                 }
                               }
                             },
+                            "combotype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -3672,6 +3712,14 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "combotype": {
+                        "type": "string",
+                        "enum": [
+                          "starter",
+                          "lunch",
+                          "dessert"
+                        ]
                       },
                       "createdAt": {
                         "type": "string",
