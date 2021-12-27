@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2021-12-27T09:41:19.184Z"
+    "x-generation-date": "2021-12-27T11:29:22.794Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4388,6 +4388,14 @@
                                   }
                                 }
                               },
+                              "itemtype": {
+                                "type": "string",
+                                "enum": [
+                                  "starter",
+                                  "lunch",
+                                  "dessert"
+                                ]
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -5347,6 +5355,14 @@
                                 }
                               }
                             },
+                            "itemtype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5836,6 +5852,14 @@
                         ],
                         "example": "string or id"
                       },
+                      "itemtype": {
+                        "type": "string",
+                        "enum": [
+                          "starter",
+                          "lunch",
+                          "dessert"
+                        ]
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -6275,6 +6299,14 @@
                                   }
                                 }
                               }
+                            },
+                            "itemtype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -7144,6 +7176,14 @@
                                 }
                               }
                             },
+                            "itemtype": {
+                              "type": "string",
+                              "enum": [
+                                "starter",
+                                "lunch",
+                                "dessert"
+                              ]
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7643,6 +7683,14 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "itemtype": {
+                        "type": "string",
+                        "enum": [
+                          "starter",
+                          "lunch",
+                          "dessert"
+                        ]
                       },
                       "createdAt": {
                         "type": "string",

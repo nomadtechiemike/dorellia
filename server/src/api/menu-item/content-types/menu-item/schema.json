@@ -37,6 +37,14 @@
         "files",
         "videos"
       ]
+    },
+    "itemtype": {
+      "type": "enumeration",
+      "enum": [
+        "starter",
+        "lunch",
+        "dessert"
+      ]
     }
   }
 }
