@@ -8,18 +8,46 @@
       <nuxt-link to="/desserts">Desserts</nuxt-link>
       <span class="dot ms-4 me-4"><i class="bi bi-circle-fill"></i></span>
       <nuxt-link to="/yourorder"
-        >Your Order <i class="bi bi-bag"></i> (0)</nuxt-link
+        >Your Order <i class="bi bi-bag"></i> ({{ cartItems }})</nuxt-link
       >
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import Vue from 'vue'
+import { mapState, mapMutations, mapGetters } from 'vuex'
+
+export default {
+  data() {
+    return {
+      cartItems: 0,
+      form: {},
+    }
+  },
+
+  mounted() {
+    this.test();
+  },
+
+  computed: {
+    ...mapGetters({
+      cart_items: 'order/G_CART',
+    }),
+    ...mapMutations([]),
+  },
+
+  methods: {
+    test() {
+      this.cartItems = this.cart_items;
+      console.log('from getters: ', cartItems)
+    },
+  },
+}
 </script>
 
 <style lang="scss">
-@import "../assets/scss/main.scss";
+@import '../assets/scss/main.scss';
 
 .top-menu {
   margin: 42px auto;

@@ -1,15 +1,19 @@
 export const state = () => ({
 // State
-})
+cartItems: 5,
+});
 
-export const getters = () => ({
+export const getters = {
 // Getters
-})
+  G_CART: (state) => {
+    return state.cartItems;
+  }
+};
 
 export const mutations = {
 // Mutations
-}
+};
 
-export const actions = () => {
+export const actions = {
 // Actions
-}
+};
