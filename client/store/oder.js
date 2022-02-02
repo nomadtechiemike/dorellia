@@ -5,9 +5,7 @@ cartItems: 5,
 
 export const getters = {
 // Getters
-  G_CART: (state) => {
-    return state.cartItems;
-  }
+  G_CART: state => state.cartItems
 };
 
 export const mutations = {
