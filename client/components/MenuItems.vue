@@ -36,6 +36,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/main.scss";
+
 .menu-items {
   margin-top: 42px!important;
   line-height: 24px;

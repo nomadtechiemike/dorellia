@@ -11,6 +11,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/main.scss";
+
 .btn-primary {
   &.add-to-cart {
     background-color: lighten($color: $primary, $amount: 30);

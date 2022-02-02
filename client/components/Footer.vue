@@ -23,6 +23,8 @@ export default {}
 </script>
 
 <style lang="scss">
+@import "../assets/scss/main.scss";
+
 .footer {
   margin: 72px auto;
   .logo {

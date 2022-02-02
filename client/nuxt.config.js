@@ -26,7 +26,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/scss/main.scss',
+    '@/assets/scss/main.scss',
     '~/node_modules/bootstrap-icons/font/bootstrap-icons.css'
   ],
 
@@ -38,7 +38,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/style-resources',
+    // '@nuxtjs/style-resources',
   ],
 
   styleResources: {

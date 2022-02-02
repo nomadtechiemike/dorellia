@@ -34,6 +34,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/main.scss";
+
 .menu-combos {
   line-height: 24px;
   h2 {

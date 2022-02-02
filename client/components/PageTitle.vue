@@ -15,6 +15,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/main.scss";
+
 .page-title {
   h1 {
     font-size: 3.222em;

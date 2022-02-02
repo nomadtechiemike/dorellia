@@ -19,6 +19,8 @@ export default {}
 </script>
 
 <style lang="scss">
+@import "../assets/scss/main.scss";
+
 .top-menu {
   margin: 42px auto;
   .golden-lines {
